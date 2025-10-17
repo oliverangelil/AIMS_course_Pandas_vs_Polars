@@ -1,1 +1,28 @@
+[project]
+name = "AIMS_SA_Course_Pandas_vs_Polars"
+version = "0.1.0"
+license = {file = "LICENSE"}
+description = "benchmark code for lecture 11"
+readme = "README.md"
+requires-python = "==3.12.9"
+
+authors =  [
+    {name = "Oliver Angelil", email = "oliver@ishango.ai"}
+]
+
+dependencies = [
+    "jupyter",
+    "pandas",
+    "polars",
+]
+
+[project.urls]
+Homepage = "https://ishango.ai/"
+
+# [project.scripts]
+# ml = "ml.model:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
