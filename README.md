@@ -6,5 +6,5 @@
 
     source .venv/bin/activate
 
-    jupter-notebook
+    jupter-notebook Pandas_vs_Polars.ipynb  
 
